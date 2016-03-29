@@ -133,5 +133,6 @@ body {
 @media (min-width: 992px) {
   .featurette-heading {
     margin-top: 0px;
+    max-width: 600px;
   }
 }
