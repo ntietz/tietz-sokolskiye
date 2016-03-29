@@ -45,7 +45,7 @@ body {
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
-  background-color: rgba(150, 150, 150, 0.6);
+  background-color: rgba(160, 160, 160, 0.6);
   border-radius: 300px;
 }
 
