@@ -1,6 +1,16 @@
 
+html, body {
+  height: 100%;
+}
+
 body {
   font-family: 'Noto Sans', sans-serif;
+  background-image: url("../assets/background-us.jpg");
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-bottom: 150px;
 }
 
 h1 {
@@ -9,6 +19,15 @@ h1 {
 
 p {
   font-family: 'Noto Sans', sans-serif;
+}
+
+/*div {
+  border-style: solid;
+  border-width: 1px;
+}*/
+
+.row.vertical-offset {
+  margin-top: 50px;
 }
 
 /*font-family: 'Ubuntu', sans-serif;*/

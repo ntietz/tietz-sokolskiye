@@ -11,7 +11,6 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-theme.min.css" rel="stylesheet">
-    <link href="css/carousel.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
 
     <!-- Style -->
@@ -28,34 +27,37 @@
   </head>
   <body>
 
-    <div class="navbar-wrapper">
-      <div class="container">
+    <div class="container"> <!-- TODO should this be "container-fluid"? -->
+      <div class="row vertical-offset">
 
-        <nav class="navbar navbar-inverse navbar-static-top">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#">Tietz-Sokolskiye</a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-              </ul>
-            </div>
+        <div class="col-sm-4 col-sm-offset-1">
+          <div class="jumbotron">
+            <h1>Nicholas</h1>
+            <p>Runner, coffee nerd, home chef, cat dad, software engineer.</p>
+            <p class="text-center"><a class="btn btn-lg btn-default" href="http://ntietz.com/" role="button">Personal site</a></p>
+            <p class="text-center"><a class="btn btn-lg btn-default disabled" href="#" role="button">Consulting business</a></p>
           </div>
-        </nav>
+        </div>
+
+        <div class="col-sm-2">
+          <!-- <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+          <span class="sr-only">and</span> -->
+        </div>
+
+        <div class="col-sm-4">
+          <div class="jumbotron">
+            <h1>Eugenia</h1>
+            <p>Translator, linguist, freelancer, cat stepmom, sleepyhead.</p>
+            <p class="text-center"><a class="btn btn-lg btn-default" href="http://sokolskayatranslations.com/">Sokolskaya Translations</a></p>
+          </div>
+        </div>
 
       </div>
+
     </div>
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery.min.js"></script>
